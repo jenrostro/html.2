@@ -6,7 +6,7 @@
 	body {background-color:goldenrod
 	}
 	h2 {color:darkred;}table, th, td {
-  border: 1px solid black;
+		border: 1px solid black;}
 	</style>
 	
 	
@@ -24,7 +24,7 @@
 	<p style="text-align: center"><img src="images/texas.jpg" alt="Texas sign"></p>
 	
 	<h2 style="text-align: center">Major Texas Cities</h2>
-	<table align="center"; width="100%"
+	<table style="text-align: center;width: 100%">
 	<tr>
 		<th> Cities</th>
 		<th colspan="2"> Population</th>
@@ -46,7 +46,7 @@
 		<td colspan="2">2,053,000</td>
 		<td colspan="2">2020</td>
 		</tr>
-	</table>
+	<table></table>
 	<p style="text-align: center"> <img src="images/bluebonnets.jpg" alt="Bluebonnets">
 		<hr>
 			 San Antonio is also a major city in Texas. Because of its diverse history and culture, it is one of the most known cities around the world. San Antonio attratons include <em> The Riverwalk</em> and <em> The Alamo</em>.</p>
@@ -63,6 +63,17 @@
 	<p style="text-align: center"><img src="images/longhorn.jpg" alt="longhorn"></p>
 	<h5 style="text-align: center; color: darkred;font-size: 80px;"><b>Come visit Texas.</b></h5>
 	
+	
+<!-- everything below can be deleted-->
+<button type="button" onclick="myFunction()">What's this?</button>
+
+<p id="demo">The Friendly state.</p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "Y'all come by now, ya hear!";
+}
+</script>
 	
 	
 		
